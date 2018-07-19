@@ -197,9 +197,11 @@ class App extends Component {
       if (value) {
         this.setState({ url: 'http://www.filltext.com/?rows=1000&id={number|1000}&firstName={firstName}&delay=0&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}' })
         this.getData('http://www.filltext.com/?rows=1000&id={number|1000}&firstName={firstName}&delay=0&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}')
+        this.getPageList(0)
       } else {
         this.setState({ url: 'http://www.filltext.com/?rows=32&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}' })
         this.getData('http://www.filltext.com/?rows=32&id={number|1000}&firstName={firstName}&lastName={lastName}&email={email}&phone={phone|(xxx)xxx-xx-xx}&address={addressObject}&description={lorem|32}');
+        this.getPageList(0)
       }
     });
     ;
