@@ -1,0 +1,21 @@
+{
+  "name": "future",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.0",
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-js-pagination": "^3.0.2",
+    "react-paginate": "^5.2.3",
+    "react-scripts": "1.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
